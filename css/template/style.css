@@ -1,0 +1,338 @@
+*{
+    box-sizing: border-box;
+  }
+  body{
+    margin: 0%;
+    background-color: white;
+    width: 1350px;
+  }
+
+  .menu{
+    height: 50;
+    background-color: white;
+  }
+  .menu a {
+    float: left;
+    color: black;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 10px;
+    transition: 0.3s;
+  }
+  
+  .menu a.logo {
+    font-size: 39px;
+    font-weight: bold;
+    margin-left: 55px;
+  }
+  
+  .menu_bar{
+    float: right;
+    margin-right: 55px;
+  }
+  
+  /* Style The Dropdown Button */
+  .dropbtn {
+    background-color: white;
+    color: black;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    float: left;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color:white;
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 10px 10px;
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: rgb(31, 219, 31)}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {
+    background-color: #0d83dd;
+  }
+  
+  .body_atas{
+    background-image: url(images/top.jpeg);
+    margin-top: 10px;
+    text-align: center;
+    padding-top: 80px;
+    height: 550;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .kolom{
+    align-content: center;
+  }
+  
+  .kolom1 {
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 20px;
+    width: 200px;
+  }
+  .kolom2 {
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 20px;
+    width: 650px;
+  }
+  .kolom3 {
+    align-content: center;
+    width: 150px;
+    height: 60px;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color: rgb(31, 219, 31);
+    font-size: 30px;
+    color: white;
+    font-family: sans-serif;
+  }
+  .kendaraan {
+    display: inline-block;
+    border: 1px solid black;
+    margin-right: 20px;
+    padding: 20px;
+    color: black;
+    width: 100px;
+    margin-top: 20px;
+}
+.fa, .fas {
+  font-weight: 900;
+}
+
+.fa, .far, .fas {
+  font-family: "Font Awesome 5 Pro";
+}
+.fas {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  line-height: 1;
+}
+
+.body_tengah{
+  
+  text-align: center;
+}
+.gambar_tengah{
+  height: 500px;
+  margin-left: 55px;
+  margin-right: 55px;
+  text-align: justify; 
+}
+#tulisan_bawah{
+  float: left;
+  width:376px;
+  height:250px;
+  margin-left: 18px;
+  margin-right: 18px;
+  margin-top: 20;
+  margin-bottom: 20;
+  background-color: aliceblue;
+  border: 1px solid black;
+}
+.tulisan{
+  width: 376px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+h4{
+  text-align: left;
+  position: absolute;
+  width: 150px;
+  margin-top: 15px;
+}
+.kendaraan1 {
+  display: inline-block;
+  border: 1px solid black;
+  border-radius: 25px;
+  padding: 3px;
+  font-size: 13px ;
+  text-align: center;
+  margin-top: 15px;
+  margin-right: 3px; 
+  float: right;
+}
+.gambar{
+  margin-left: 32px;
+  margin-right: 32px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.body_bawah{
+  
+  display: inline-block;
+  text-align: center;
+  margin: 80px;
+  margin-top: 20px;
+}
+.gambar_bawah{
+  text-align: justify;
+}
+/*.gambar_kiri{
+  float: left;
+  width: 520px;
+}*/
+/*#wrapper
+{
+ text-align:center;
+ margin:0 auto;
+ padding:0px;
+ width:995px;
+}*/
+#gambar_kiri
+{
+ width:525px;
+ position:relative;
+ float: left;
+}
+#gambar_kiri img
+{
+ width:100%;
+}
+#gambar_kiri #image_label
+{
+ margin:0px;
+ position:absolute;
+ bottom:12px;
+}
+#gambar_kiri #image_label span
+{
+ background-color: #0B4C5F;
+ opacity:0.8;
+ font-size:15px;
+ padding:7px;
+ box-sizing:border-box;
+ color:white;
+ font-weight:bold;
+}
+#gambar_kiri #image_label2
+{
+ margin:0px;
+ position:absolute;
+ bottom:25px;
+ right: 1px;
+}
+#gambar_kiri #image_label2 span{
+  background-color: #0B4C5F;
+  opacity:0.8;
+  font-size:20px;
+  padding:1px;
+  box-sizing:border-box;
+  color:white;
+  font-weight:bold; 
+}
+#gambar_kiri #image_label3
+{
+ margin:0px;
+ position:absolute;
+ bottom:7px;
+ right: 1px;
+}
+#gambar_kiri #image_label3 span
+{
+ background-color: #0B4C5F;
+ opacity:0.8;
+ font-size:13px;
+ padding:1px;
+ box-sizing:border-box;
+ color:white;
+ font-weight:bold;
+}
+
+.gamabar_kanan{
+  float: right;
+  width: 665px;
+}
+/*.gambar1{
+  text-align: right;
+  margin-left: 20px;
+}*/
+#gambar1
+{
+ width:305;
+ position:relative;
+ float: right;
+ margin-left: 25px;
+ margin-bottom: 20px;
+}
+#gambar1 img
+{
+ width:100%;
+}
+
+#gambar1 #image_label2
+{
+ margin:0px;
+ position:absolute;
+ bottom:25px;
+ right: 1px;
+}
+#gambar1 #image_label2 span{
+  background-color: #0B4C5F;
+  opacity:0.8;
+  font-size:20px;
+  padding:1px;
+  box-sizing:border-box;
+  color:white;
+  font-weight:bold; 
+}
+#gambar1 #image_label
+{
+ margin:0px;
+ position:absolute;
+ bottom:7px;
+ right: 1px;
+}
+#gambar1 #image_label span
+{
+ background-color: #0B4C5F;
+ opacity:0.8;
+ font-size:13px;
+ padding:1px;
+ box-sizing:border-box;
+ color:white;
+ font-weight:bold;
+}
+footer{
+  background-color: blue;
+  text-align: center;
+  height: 30px;
+  padding-top: 5px;
+  }

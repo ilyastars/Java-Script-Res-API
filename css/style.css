@@ -1,0 +1,114 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  margin: 0%;
+  background-color: #0d83dd;
+}
+.header{
+  background-color: #0061ae;
+  height: 30px;
+}
+.menu{
+  height: 50;
+  margin-top: 15px;
+}
+.menu a {
+  float: left;
+  color: white;
+  padding: 20px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 10px;
+  transition: 0.3s;
+}
+
+.menu a.logo {
+  font-size: 39px;
+  font-weight: bold;
+  margin-left: 100px;
+}
+
+.menu_bar{
+  float: right;
+  margin-right: 130px;
+}
+
+/* Style The Dropdown Button */
+.dropbtn {
+  background-color: #0d83dd;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+  float: left;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color:#0061ae;
+  min-width: 100px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 10px 10px;
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: rgb(31, 219, 31)}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  background-color: #0d83dd;
+}
+
+
+.isi{
+  text-align: center;
+  margin-top: 80px;
+}
+.kolom{
+  align-content: center;
+}
+
+.kolom1 {
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.kolom2 {
+  align-content: center;
+    width: 620px;
+    height: 60px;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color: rgb(31, 219, 31);
+    font-size: 30px;
+    color: white;
+    font-family: sans-serif;
+}
+h1 , h4{
+  color: aliceblue;
+}

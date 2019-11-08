@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <title>DOM Javascript</title>
+        <style>
+        .merah{
+            background: red;
+        }
+        </style>
+    </head>
+    <body>
+        <h1> Belajar DOM Javascript</h1>
+        <img src="1.jpg" width="300" id="gambar">
+
+        <input type="text" value="nama" id="input">
+
+        <script>
+            var img = document.getElementById('gambar');
+            img.width = 400;
+            //berguna untuk nanti buat even (kaya si user bila menekan salah satu tombol menjadi si objek membesar)
+
+            img.setAttribute('class', 'merah');
+            //penambahan class pada kolom input (penggabungan HTML CSS Javascript)
+
+            var input = document.getElementById('input');
+            input.value = "nama lengkap";
+            //berguna untuk nanti buat even (kaya si user bila menekan salah satu tombol menjadi si objek membesar)
+
+        </script>
+    </body>
+</html>

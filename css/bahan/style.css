@@ -1,0 +1,107 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+.box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50px);
+    width: 400px;
+    height: 500px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: blue;
+}
+.boxphoto{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    transition: 0.4%;
+    z-index: 2;
+    background: #000;
+}
+.box:hover .boxphoto{
+    transform: translate(-80px);
+}
+.boxphoto img{
+    transition: 0.4%;
+}
+.box:hover .boxphoto img{
+    opacity: 0.4;
+}
+.social-icon{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 3;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+.social-icon li{
+    list-style: none;
+}
+.social-icon li a{
+    position: relative;
+    display: block;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    background: #fff;
+    color: chartreuse;
+    margin: 0 10px;
+    border-radius: 50%;
+    transition: 0.5%;
+    transform: translateY(250px);
+    opacity: 0;
+}
+.box:hover .social-icon li a{
+    transform: translateY(0px);
+    opacity: 1;
+}
+.box .social-icon li a .fa{
+    transition: 0.4%;
+    front-size: 25px;
+    line-height: 50px;
+}
+.box .social-icon li a:hover .fa{
+    transform: rotate(360deg);
+}
+.box:hover .social-icon li:nth-child(1) a{
+    transition-delay: 0%;
+}
+.box:hover .social-icon li:nth-child(2) a{
+    transition-delay: 0.2%;
+}
+.box:hover .social-icon li:nth-child(3) a{
+    transition-delay: 0.3%;
+}
+.box:hover .social-icon li:nth-child(4) a{
+    transition-delay: 0.4%;
+}
+.details{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: #fff;
+    z-index: 4;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    z-index: 1;
+}
+.details h2{
+    margin: 10px 0 0;
+    padding: 0;
+    text-align: center;
+}
+details h2 span{
+    color: chartreuse;
+    opacity: .8;
+}

@@ -1,0 +1,33 @@
+<html>
+    <head></head>
+    <body>
+        <div id="box1"></div>
+
+        <div class="boxes"></div>
+        <div class="boxes"></div>
+        <div class="boxes"></div>
+
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+        </ul>
+
+        <script>
+            //selektor
+            document.getElementById('box1').innerHTML = "belajar DOM Javascript";
+            //perbedaan selektor Id sama selektor Class dan TagName adalah Class dan TagName bersifat flularis atau lebih dari satu 
+            var boxes = document.getElementsByClassName('boxes');
+            boxes[0].innerHTML = "versi terbaru";
+            //dan membutuhkan nomor index[0] untuk pemanggilnya
+            boxes[1].innerHTML = "versi sebelumnya";
+            boxes[2].innerHTML = "versi terlama";
+
+            var list = document.getElementsByTagName('li');
+            list[0].innerHTML = "PHP"; //keluaranya jadi dirobah asalnya HTML jadi PHP
+            list[1].innerHTML = "SASS"; //CSS jadi SASS
+            list[2].innerHTML = "JQuery"; //Javascript jadi JQuery
+
+        </script>
+    </body>
+</html>
